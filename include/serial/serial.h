@@ -647,6 +647,10 @@ public:
   bool
   getCD ();
 
+  /*! Returns the file descriptor. */
+  int
+  getFd ();
+
 private:
   // Disable copy constructors
   Serial(const Serial&);

@@ -188,6 +188,9 @@ public:
   void
   writeUnlock ();
 
+  int
+  getFd ();
+
 protected:
   void reconfigurePort ();
 

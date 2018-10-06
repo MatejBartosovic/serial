@@ -412,3 +412,8 @@ bool Serial::getCD ()
 {
   return pimpl_->getCD ();
 }
+
+int Serial::getFd()
+{
+  return pimpl_->getFd();
+}
